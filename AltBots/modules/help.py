@@ -136,8 +136,8 @@ async def helpback(event):
                 Button.inline("• ᴇxᴛʀᴀ •", data="extra")
               ],
               [
-                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/DAEDX_HELP"),
-                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DAEDX_HELP")
+                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/DAEDX_HELP/4"),
+                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DAEDX_HELP/4")
               ]
             ]
           )
