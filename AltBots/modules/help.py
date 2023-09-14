@@ -14,8 +14,8 @@ HELP_BUTTON = [
       Button.inline("• ᴇxᴛʀᴀ •", data="extra")
     ],
     [
-      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/TheAltron"),
-      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/AltronChats")
+      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/DAEDX_HELP"),
+      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DAEDX_HELP")
     ]
   ]
 
@@ -136,8 +136,8 @@ async def helpback(event):
                 Button.inline("• ᴇxᴛʀᴀ •", data="extra")
               ],
               [
-                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/UDAAN2024_CHAT"),
-                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/UDAAN2024_CHAT")
+                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/DAEDX_HELP"),
+                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DAEDX_HELP")
               ]
             ]
           )
