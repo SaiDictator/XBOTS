@@ -21,10 +21,10 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"» __ᴀʟᴛʀᴏɴ__")
+        altron = await e.reply(f"» __𝐃𝐄𝐀𝐃𝐗__")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"__🤖 ᴘɪɴɢ__\n» `{mp} ᴍꜱ`")
+        await altron.edit(f"__🤖 𝐃𝐄𝐀𝐃__\n» `{mp} ᴍꜱ`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -128,3 +128,4 @@ async def addsudo(event):
     
     elif event.sender_id in SUDO_USERS:
         await event.reply("» ꜱᴏʀʀʏ, ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")
+.")
